@@ -1,4 +1,4 @@
-USE DB_T05072C_Rodrigo_SanVicente
+USE DB_T05072C_Rodrigo_SanVicente;
 
 CREATE TABLE Contatos (
     id INT PRIMARY KEY AUTO_INCREMENT,
