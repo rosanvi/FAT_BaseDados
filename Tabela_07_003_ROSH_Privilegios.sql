@@ -1,0 +1,10 @@
+Use DB_T05072C_Rodrigo_SanVicente;
+-- CREATE USER 'RoSanVi'@'%' IDENTIFIED BY 'M@sql1234';
+-- CREATE USER 'RoSanVi01'@'%' IDENTIFIED BY 'M@sql2468';
+-- CREATE USER 'RoSanVi02'@'%' IDENTIFIED BY 'M@sql369';
+SHOW GRANTS FOR 'RoSanVi02'@'%';
+-- SHOW GRANTS FOR 'RoSanVi01'@'%';
+SHOW GRANTS FOR 'RoSanVi'@'%';
+-- GRANT SELECT, INSERT ON `DB_T05072C_Rodrigo_SanVicente`.* TO 'RoSanVi01'@'%';
+GRANT SELECT, INSERT ON `DB_T05072C_Rodrigo_SanVicente`.* TO 'RoSanVi02'@'%';
+GRANT SELECT, INSERT ON `DB_T05072C_Rodrigo_SanVicente`.* TO 'RoSanVi'@'%';
